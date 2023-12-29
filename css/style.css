@@ -1,0 +1,775 @@
+Body {
+
+	Background-image: url("../Images/Extras/Background.png");
+	Background-position: center;
+
+}
+
+div {
+	
+	font-family: Comic Sans MS;
+	
+}
+
+.Icon {
+	
+	width: 50px;
+	height: 50px;
+	float: left;
+	padding: 5px;
+	
+}
+
+nav {
+	
+	font-family: Comic Sans MS;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-left: -8px;
+
+}
+
+.Main a {
+	
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-size: 20px;
+	transition: padding 0.5s;
+
+}
+
+.Main a:hover {
+	
+	padding: 25px 25px;
+	background: #ddd;
+	color: black;
+
+}
+
+.Contacts {
+	
+	background: #181818;
+	border: 5px solid #181818;
+	width: 800px;
+	margin: auto;
+	padding: 30px;
+	margin-top: 100px;
+	color: #E7E7E7;
+	height: 80%;
+	
+}
+
+.Contacts a {
+	
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-size: 20px;
+	transition: background 0.5s, color 0.5s;
+
+}
+
+.Contacts a:hover {
+	
+	background: #f2f2f2;
+	color: black;
+
+}
+
+.Contacts img {
+	
+	width: 60px;
+	height: 60px;
+	
+}
+
+.Bar {
+	
+	background-image: url('../Images/Extras/Bar.png');
+	
+}
+
+.Bar-B {
+	
+	background-image: url('../Images/Extras/Beginner_Bar.png');
+	
+}
+
+.Bar-I {
+	
+	background-image: url('../Images/Extras/Intermediate_Bar.png');
+	
+}
+
+.Socials {
+	
+	display: flex;
+	
+}
+
+.Contributions {
+	
+	margin-left: 50px;
+	
+}
+
+.Title {
+
+	background-color: white;
+	width: 500px;
+	height: 250px;
+	border: dotted black 5px;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+
+}	
+
+.About {		
+		
+	margin: auto;
+	text-align: center;
+	width: 700px;
+	border: solid black 3px;
+	border-radius: 25px;
+	background-color: white;
+	padding: 20px;
+	margin-top: 50px;
+	
+}
+
+.Links {
+	
+	text-align: left;
+	font-size: 10pt;
+
+}
+
+.Preview {
+	
+	display: flex;
+	width: 75%;
+	margin: auto;
+	
+}
+
+img.PI{
+	
+	border: 3px solid black;
+	border-radius: 20px;
+	
+}
+
+
+.Beginner {
+	
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	width: 250px;
+	text-align: center;
+	background-color: #7aff7d;
+
+}
+
+.Intermediate {
+	
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	width: 250px;
+	background-color: #fffb7a;
+	
+}
+
+.Expert {
+
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	width: 250px;
+	text-align: center;
+	float: right;
+	background-color: #ff7a7a;
+	
+}
+
+.PI {
+	
+	width: 250px;
+	height: 400px;
+	
+}
+
+.Confirm {
+	
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 20px;
+	width: 400px;
+	margin: auto;
+	margin-top: 30px;
+	
+}
+
+.GS {
+	
+	border: 10px solid black;
+	border-radius: 20px;
+	text-align: center;
+	margin: auto;
+	padding: 200px;
+	width: 700px;
+	background-image: url("../Images/Home_Images/Portal.png");
+	
+}
+
+.GS a{
+	
+	border: 2px solid black;
+	background-color: green;
+	border-radius: 20px;
+	color: black;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-size: 20px;
+	transition: padding 0.5s;
+
+}
+
+.GS a:hover{
+	
+	padding: 40px 40px;
+	background-image: url("../Images/Home_Images/Portal.png");
+	color: black;
+	width: 300px;
+	margin: auto;
+	
+}
+
+a {
+	
+	text-decoration: none;
+	color: black;
+}
+
+.TV2 {
+	
+	background-color: white;
+	width: 500px;
+	height: 200px;
+	border: dotted black 5px;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	padding: 15px;
+	
+}
+
+.Beginner-S {
+	
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+	width: 700px;
+	background-color: #7aff7d;
+	margin-top: 50px;
+	
+}
+
+.words {
+	
+	display: flex;
+	
+}
+
+.IES {
+
+	margin: auto;
+	
+}
+
+.Wording-B {
+	
+	width: 250px; 
+	margin-left: 20px; 
+	border:2px black solid; 
+	background-color: white; 
+	width: 190px; 
+	padding: 20px; 
+	border-radius: 20px; 
+	text-align: center
+		
+}
+
+.LS-Examples {
+
+	text-align: center;
+	
+}
+
+.Lessons {
+	
+	border: 2px black solid;
+	margin-left: 20px;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: white;
+	width: 360px;
+	
+}
+
+h2 {
+	
+	font-size: 25pt;
+	margin-top: 1px;
+	
+}
+
+li {
+	
+	margin-left: 100px;
+	font-size: 25pt;
+	
+}
+
+.button {
+	
+	overflow: hidden;
+	background-color: #333;
+	width: 90%;
+	border: 2px solid black;
+	background-color: green;
+	margin: auto;
+	border-radius: 20px;
+
+}
+
+.button a {
+	
+	margin: auto;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-size: 20px;
+	transition: padding 0.5s;
+
+}
+
+.button a:hover {
+	
+	padding: 25px 25px;
+	background: #ddd;
+	color: black;
+
+}
+	
+.Intermediate-S {
+	
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+	width: 700px;
+	background-color: #fffb7a;
+	margin-top: 50px;
+	
+}
+
+.Expert-S {
+	
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+	width: 700px;
+	background-color: #ff7a7a;
+	margin-top: 50px;
+	
+}
+
+.Suggestions {
+	
+	overflow: hidden;
+	background-color: #333;
+	bottom: 0;
+	margin-left: -8px;
+	margin-bottom: -10px;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+
+}
+
+.BI {
+	
+	text-align: center;
+	
+}
+
+.Twitter {
+	
+	background: url('../Images/Extras/Socials_Icon/Twitter-Sprite.png') no-repeat 0px -60px;
+	overflow: hidden;
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	width: 60px;
+	height: 60px;
+	text-decoration: none;
+
+}
+
+.Twitter:hover {
+	
+	background: url('../Images/Extras/Socials_Icon/Twitter-Sprite.png') no-repeat 0px 0px;
+	overflow: hidden;
+	float: right;
+	display: block;
+	width: 60px;
+	height: 60px;
+
+}
+
+.FA {
+	
+	background: url('../Images/Extras/Socials_Icon/FA-Sprite.png') no-repeat 0px -60px;
+	overflow: hidden;
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	width: 60px;
+	height: 60px;
+	text-decoration: none;
+
+}
+
+.FA:hover {
+	
+	background: #ddd;
+	background: url('../Images/Extras/Socials_Icon/FA-Sprite.png') no-repeat 0px 0px;
+	overflow: hidden;
+	float: right;
+	display: block;
+	width: 60px;
+	height: 60px;
+
+}
+
+.YT {
+	
+	background: url('../Images/Extras/Socials_Icon/YT-Sprite.png') no-repeat 0px -60px;
+	overflow: hidden;
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	width: 60px;
+	height: 60px;
+	text-decoration: none;
+
+}
+
+.YT:hover {
+	
+	background: #ddd;
+	background: url('../Images/Extras/Socials_Icon/YT-Sprite.png') no-repeat 0px 0px;
+	overflow: hidden;
+	float: right;
+	display: block;
+	width: 60px;
+	height: 60px;
+
+}
+
+h3 {
+	
+	font-size: 30pt;
+	margin-left: 20px;
+	margin-top: 10px;
+	
+}
+
+img.PE{
+	
+	margin-bottom: 20px;
+	border: 5px solid black;
+	border-radius: 20px;
+	width: 350px;
+	height: 350px;
+	
+}
+
+.EVideo {
+	
+	Text-align: center;
+	margin: auto;
+	border: 3px solid black;
+	width: 640px;
+	height: 360px;
+	
+}
+
+.Title-Beginner-Lesson {
+	
+	background-color: #7aff7d;
+	width: 800px;
+	height: 250px;
+	border: dotted black 5px;
+	border-radius: 25px;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+	
+}
+
+.Title-Intermediate-Lesson {
+	
+	background-color: #fffb7a;
+	width: 800px;
+	height: 250px;
+	border: dotted black 5px;
+	border-radius: 25px;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+	
+}
+
+.Title-Expert-Lesson {
+	
+	background-color: #ff7a7a;
+	width: 800px;
+	height: 250px;
+	border: dotted black 5px;
+	border-radius: 25px;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+	
+}
+
+.Lesson-Overview {
+	
+	border: 3px solid black;
+	border-radius: 20px;
+	background: white;
+	width: 600px;
+	margin: auto;
+	margin-top: 50px;
+	
+}
+
+.Lesson-Overall {
+	
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	background: #D2FFDA;
+	width: 75%;
+	margin: auto;
+	margin-top: 50px;
+	
+}
+
+.Lesson-Overall2 {
+	
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	background: #FFFBD2;
+	width: 75%;
+	margin: auto;
+	margin-top: 50px;
+	
+}
+
+.Lesson-Overall3 {
+	
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	background: #FFD2D4;
+	width: 75%;
+	margin: auto;
+	margin-top: 50px;
+	
+}
+
+.Lesson-Explain {
+	
+	text-align: center;	
+	padding: 20px;
+	
+}
+
+.Lesson-Show {
+	
+	width: 600px;
+	margin-left: 50px;
+	text-align: center;
+	margin: auto;
+	border: 5px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: white;
+	
+}
+
+.Explanation {
+	
+	display: flex;
+	
+}
+
+.ExplainN-1 {
+	
+	margin: auto;
+	text-align: center;
+	
+}
+
+.ExplainN-1 p{
+	
+	width: 400px;
+	
+}
+
+.ExplainN-1 img {
+	
+	border: 2px solid black;
+	border-radius: 20px;
+	
+}
+
+.Video-Texts {
+
+	text-align: center;
+	margin: auto;
+	border: 4px solid black;
+	border-radius: 20px;
+	width: 75%;
+	
+}
+
+#B1 {
+	
+	background: #1B85BB;
+	color: white;
+	
+}
+
+#B2 {
+
+	background: #FAE8D9;
+	color: black;
+	
+}
+
+#B3 {
+	
+	background: #E9BEA5;
+	color: black;
+	
+}
+
+#B4 {
+	
+	background: #D0D6DD;
+	color: black;
+	
+}
+
+.Video {
+
+	border: 3px solid black;
+	width: 1080px; 
+	height: 608px;
+	margin: auto;
+	
+}
+
+.B-Relate {
+
+	border: 2px solid black;
+	border-radius: 25px;
+	padding: 20px;
+	background-color: #D2FFDA;
+	
+}
+
+.I-Relate {
+
+	border: 2px solid black;
+	border-radius: 25px;
+	padding: 20px;
+	background-color: #fffb7a;
+	
+}
+
+.E-Relate {
+	
+	border: 2px solid black;
+	border-radius: 25px;
+	padding: 20px;
+	background-color: #ff7a7a;
+	
+}
+
+.B-Relate a{
+	
+	text-decoration: underline;
+	color: green;
+	
+}
+
+.B-Relate a:hover{
+	
+	color: white;
+	
+}
+
+
+.I-Relate a{
+	
+	text-decoration: underline;
+	color: #908C44;
+	
+}
+
+.I-Relate a:hover{
+	
+	color: white;
+	
+}
+
+.E-Relate a{
+	
+	text-decoration: underline;
+	color: red;
+	
+}
+
+.E-Relate a:hover{
+	
+	color: white;
+	
+}
